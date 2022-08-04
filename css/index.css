@@ -472,6 +472,9 @@ color: var(--grey);
     .footer p {
         font-size: 8px;
     }
+    .see{
+        margin-left: 50px;
+    }
    
 
 
