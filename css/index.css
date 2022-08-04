@@ -66,6 +66,9 @@ header .logo a {
 nav.nav {
     display: none;
 }
+header.sticky #menu-bar {
+     margin-right: 40px;
+}
 #menu-bar {
     font-size: 2rem;
     margin-right: 20px;
@@ -652,7 +655,7 @@ color: var(--grey);
 
 
     .about {
-        height: 152vh;
+        height: 155.5vh;
     }
 
     .about .heading {
