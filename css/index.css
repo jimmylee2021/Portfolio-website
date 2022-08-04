@@ -243,6 +243,24 @@ color: var(--grey);
     
     color: var(--secondary-color)
 }
+.see{
+    margin-left: 100px;
+}
+.see a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    
+    color: #31525B;
+    
+}
 
 
 
@@ -627,6 +645,26 @@ color: var(--grey);
         display: none;
     }
 
+    .see{
+        margin-left: 120px;
+    }
+    .see a {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 24px;
+        /* identical to box height */
+        
+        display: flex;
+        align-items: center;
+        text-decoration-line: underline;
+        
+        color: #31525B;
+        
+    }
+    
+
     
 
 }
@@ -662,6 +700,10 @@ color: var(--grey);
         font-weight: 700;
         font-size: 48px;
         line-height: 58px;
+        margin-left: 70px;
+    }
+    .col {
+        margin-left: 50px;
     }
 
     .col-1-txt {
