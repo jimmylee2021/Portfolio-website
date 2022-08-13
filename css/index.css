@@ -244,7 +244,11 @@ color: var(--grey);
     color: var(--secondary-color)
 }
 .see{
-    margin-left: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   text-align: center;
 }
 .see a {
     font-family: 'Inter';
@@ -254,8 +258,6 @@ color: var(--grey);
     line-height: 24px;
     /* identical to box height */
     
-    display: flex;
-    align-items: center;
     text-decoration-line: underline;
     
     color: #31525B;
@@ -741,6 +743,9 @@ color: var(--grey);
         line-height: 64px;
         margin-top: 95px;
         
+    }
+    .row-1 .btn {
+         line-height: 74px;
     }
     .col-2 {
         display: none;
