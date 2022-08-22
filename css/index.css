@@ -462,21 +462,22 @@ color: var(--grey);
         margin-top: -40px;
     }
     .content-bx {
-        width: 285px;
+        width: 300px;
     }
     .col-1 .btn {
         margin-top: 50px;
-        padding:10px 15px;
     }
     .about {
-        height: 105vh;
+       height: 100vh; 
+       width: 100%;
     }
-    .footer p {
-        font-size: 8px;
+    .mobile{
+        display: none;
     }
-    .see{
-        margin-left: 50px;
-    }
+   .span-3 {
+    display: none;
+   }
+    
    
 
 
@@ -563,6 +564,11 @@ color: var(--grey);
         letter-spacing: 0.02em;
         
         color: var(--grey);
+    }
+    .see {
+        justify-content: left;
+        align-items: left;
+        text-align: left;
     }
 
     .small-txt {
