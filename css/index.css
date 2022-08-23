@@ -156,6 +156,7 @@ nav.nav.active a {
     background: var(--more-color);
     color: var(--grey);
 }
+
 .row-2 {
     background: url(../img/halo.png) no-repeat;
     background-size: contain;
@@ -243,6 +244,10 @@ color: var(--grey);
     
     color: var(--secondary-color)
 }
+
+.txt-container .btn:hover {
+    letter-spacing: 10px;
+}
 .see{
    display: flex;
    justify-content: center;
@@ -262,6 +267,10 @@ color: var(--grey);
     
     color: #31525B;
     
+}
+
+.see a:hover {
+    color: #FFA101;
 }
 
 
@@ -398,6 +407,10 @@ color: var(--grey);
     color: var(--primary-color);
 }
 
+.contact-bx a:hover {
+    color: #FFA101;
+}
+
 .links {
     margin-top: 40px;
     display: flex;
@@ -489,7 +502,9 @@ color: var(--grey);
         margin-left: 25px;
     }
 
-
+    .btn:hover {
+        letter-spacing: 10px;
+      }
     nav.nav{
         display: flex;
     }
@@ -546,6 +561,9 @@ color: var(--grey);
         letter-spacing: 0.16em;
         text-transform: uppercase;
         
+    }
+    .row-1 .btn:hover {
+        letter-spacing: 10px;
     }
 
     .hero-txt,.small-txt{
