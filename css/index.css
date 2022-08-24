@@ -137,6 +137,7 @@ nav.nav.active a {
 .row {
     display: flex;
     flex-direction: column;
+   
 }
 
  .btn {
@@ -456,6 +457,7 @@ color: var(--grey);
     color: var(--primary-color);
     
 }
+
 
 .col-3 {
     display: none;
