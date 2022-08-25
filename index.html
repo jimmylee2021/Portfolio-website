@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio || website</title>
     <script src="https://kit.fontawesome.com/dc287775fc.js" crossorigin="anonymous"></script>
+    <script src='https://unpkg.com/aos@next/dist/aos.js'></script>
     <link rel="stylesheet" href="css/index.css">
+    <link rel='stylesheet' href='https://unpkg.com/aos@next/dist/aos.css'>
     <link rel="shortcut icon" href="img/jim3.png"  width="100%">
 </head>
 <body>
+    <div id="preloader"></div>
     <header>
         <div class="logo">
           <a href="#home">&lt;pa/&gt;</a>
@@ -43,10 +46,10 @@
                 </div>
             </div>
     </section>
-    <section class="works" id="works">
-              <h1 class="heading">My Works</h1>
-              <div class="box" >
-                <div class="box-container">
+    <section class="works" id="works" >
+              <h1 class="heading" data-aos="fade-left">My Works</h1>
+              <div class="box"  >
+                <div class="box-container" data-aos="fade-right">
                     <img  src="img/madhouse home.png" class="container"></img>
                     <div class="txt-container">
                         <h3>MadHouse design</h3>
@@ -54,7 +57,7 @@
                         <a href="https://jimmylee2021.github.io/madhouse-design-master/" class="btn" target="_blank"> View Project</a>
                     </div>
                 </div>
-                <div class="box-container">
+                <div class="box-container" data-aos="fade-left">
                     <img  src="img/travelxhome.png" class="container"></img>
                     <div class="txt-container">
                         <h3>Travelx website</h3>
@@ -62,7 +65,7 @@
                         <a href="https://jimmylee2021.github.io/travel-website/" class="btn" target="_blank">View Project</a>
                     </div>
                 </div>
-                <div class="box-container">
+                <div class="box-container" data-aos="fade-right">
                     <img src="img/tic-tac.png" class="container"></img>
                     <div class="txt-container">
                         <h3>Tic-Tac-Toe Game</h3>
@@ -70,7 +73,7 @@
                         <a href="https://codepen.io/peteradejimi/pen/WNojGxa" class="btn" target="_blank">View Project</a>
                     </div>
                 </div>
-                <div class="box-container">
+                <div class="box-container" data-aos="fade-left">
                     <img src="img/calculator.png" class="container"></img>
                     <div class="txt-container">
                         <h3>Calculator</h3>
@@ -90,10 +93,10 @@
 
     <section class="about" id="about">
          <br><br><br>
-        <h1 class="heading">About Me</h1>
+        <h1 class="heading" data-aos="fade-left">About Me</h1>
 
-        <div class="col">
-            <div class="col-1">
+        <div class="col" >
+            <div class="col-1" data-aos="fade-right">
                 <h1 class="col-1-txt">
                     Programmer,
                     <br>
@@ -119,14 +122,14 @@
     </section>
 
     <section class="contact" id="contact">
-          <div class="span">
+          <div class="span" data-aos="fade-right">
             <div class="span-3">
                 <img src="img/pattern 2.png" alt="">
             </div>
             <div class="span-1">
                <img src="img/Group 7.png" alt="">
             </div>
-            <div class="span-2">
+            <div class="span-2" data-aos="fade-left">
                 <div class="hello-bx">
                     <h1 class="hello-txt">Say Hello</h1>
                     <div class="contact-bx">

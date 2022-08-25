@@ -17,6 +17,14 @@ body {
     font-family:'Inter';
 }
 
+#preloader {
+    background: #ffff url(../img/loader.gif) no-repeat center center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
 
 :root {
     --primary-color:#000;
@@ -788,7 +796,7 @@ color: var(--grey);
 
     .col-3 img {
         max-width: 100%;
-        margin-top: 51vh;
+        margin-top: 43vh;
     }
 
     .span-2{

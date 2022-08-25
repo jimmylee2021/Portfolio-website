@@ -16,3 +16,17 @@ menu.addEventListener('click', ()=>{
    }
 
 })
+
+
+AOS.init({
+    offset: 400,
+    duration: 1000
+});
+
+
+var loader = document.getElementById("preloader");
+
+
+window.addEventListener('load', ()=> {
+    loader.style.display = "none";
+})
